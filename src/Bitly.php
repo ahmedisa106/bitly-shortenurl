@@ -1,6 +1,6 @@
 <?php
 
-namespace ahmedisa106\Shorturl;
+namespace Ahmedisa106\Shorturl;
 
 class Bitly
 {

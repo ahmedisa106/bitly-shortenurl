@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "ahmedisa106\\Shorturl\\": "src/"
+            "Ahmedisa106\\Shorturl\\": "src/"
         },
         "files": [
             "src\\helpers.php"
@@ -13,17 +13,17 @@
     },
     "authors": [
         {
-            "name": "ahmedisa106",
-            "email": "ahmedisa106@gmail.com"
+            "name": "Ahmedisa106",
+            "email": "Ahmedisa106@gmail.com"
         }
     ],
     "extra": {
         "laravel": {
             "providers": [
-                "ahmedisa106\\Shorturl\\BitlyServiceProvider"
+                "Ahmedisa106\\Shorturl\\BitlyServiceProvider"
             ],
             "aliases": {
-                "Bitly": "ahmedisa106\\Shorturl\\Bitly"
+                "Bitly": "Ahmedisa106\\Shorturl\\Bitly"
             }
         }
     },
