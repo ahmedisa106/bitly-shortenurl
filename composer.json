@@ -1,0 +1,32 @@
+{
+    "name": "issa/shorturl",
+    "description": "shorten long url using bitly API",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Issa\\Shorturl\\": "src/"
+        },
+        "files": [
+            "src\\helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "ahmedisa106",
+            "email": "ahmedisa106@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Issa\\Shorturl\\BitlyServiceProvider"
+            ],
+            "aliases": {
+                "Bitly": "Issa\\Shorturl\\Bitly"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
